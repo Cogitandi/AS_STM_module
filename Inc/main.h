@@ -58,8 +58,8 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define DHT11_Pin GPIO_PIN_6
-#define DHT11_GPIO_Port GPIOA
+#define DHT22_Pin GPIO_PIN_6
+#define DHT22_GPIO_Port GPIOA
 #define inputFlowMeter_Pin GPIO_PIN_7
 #define inputFlowMeter_GPIO_Port GPIOA
 #define inputFlowMeter_EXTI_IRQn EXTI9_5_IRQn
